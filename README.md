@@ -33,7 +33,7 @@ Client -> Host Agent -> Scheduler Agent -> Calendar Agent
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Shreyans298/Multi-Agent-Meeting-Scheduler.git
 cd event_scheduler_multi-agent
 ```
 
@@ -128,10 +128,6 @@ pytest
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Authors
 
