@@ -1,0 +1,5 @@
+venv/
+credentials/
+token.pickle
+.env
+token.json

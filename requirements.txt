@@ -1,0 +1,59 @@
+# Web Framework and Server
+starlette>=0.27.0
+# fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# HTTP Client
+httpx>=0.24.0
+httpx-sse>=0.3.0
+
+# Data Validation and Models
+# pydantic>=1.10.0,<2.0.0
+
+# CLI Interface
+click>=8.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Google AI Dependencies
+google-generativeai
+google-ai-generativelanguage
+google-cloud-aiplatform>=1.36.0
+google-adk
+
+# LangChain Dependencies
+# langchain>=0.3.24
+langchain-core>=0.3.56
+langchain-google-genai
+
+# Utilities
+python-multipart>=0.0.6
+
+# Additional Dependencies
+protobuf>=3.20.3,<5.0.0dev
+packaging>=23.2,<25.0 
+asyncclick
+
+# Google Calendar API Dependencies
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.4.6
+python-dateutil>=2.8.2
+
+streamlit==1.32.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.118.0
+python-dotenv==1.0.1
+pandas==2.2.1
+pytz>=2021.1
+# openai==1.12.0
+
+pydantic>=1.8.2
+langchain
+openai
+fastapi
+
+# New additions from the code block
+a2a-protocol>=0.1.0  # Agent-to-Agent protocol
