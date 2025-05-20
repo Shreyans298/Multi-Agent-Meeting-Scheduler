@@ -10,12 +10,6 @@ The system consists of three main agents:
 2. **Scheduler Agent**: Responsible for finding available time slots based on participants' calendars.
 3. **Calendar Agent**: Handles the actual creation and management of calendar events.
 
-### Communication Flow
-
-```
-Client -> Host Agent -> Scheduler Agent -> Calendar Agent
-```
-
 ## Features
 
 - Dynamic message handling with support for multiple message types
