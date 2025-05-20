@@ -74,39 +74,7 @@ curl -X POST http://localhost:8000/schedule \
   }'
 ```
 
-## Project Structure
-
-```
-event_scheduler_multi-agent/
-├── src/
-│   ├── agents/
-│   │   ├── host_agent/
-│   │   ├── scheduler_agent/
-│   │   └── calendar_agent/
-│   ├── models/
-│   │   ├── agent.py
-│   │   └── request.py
-│   ├── main.py
-│   └── config.py
-├── requirements.txt
-├── pyproject.toml
-└── setup.py
-```
-
-## Error Handling
-
-The system implements robust error handling:
-- Graceful degradation when Google Calendar service is unavailable
-- Fallback to mock mode for testing and development
-- Detailed error messages for debugging
-
 ## Development
-
-### Adding New Message Types
-
-1. Define new message types in the appropriate agent's models
-2. Update the message handling logic in the agent's entry point
-3. Implement the corresponding business logic
 
 ### Testing
 
